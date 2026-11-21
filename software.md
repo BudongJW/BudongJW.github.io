@@ -15,8 +15,10 @@ permalink: /software/
 | 5. 채팅·후원 | 채팅창 | 한 플랫폼이면 내장 위젯, 동시 송출이면 debutkit overlay | 통합 채팅창, 후원 알림 |
 | 6. 방송 후 | - | stream2clip | 하이라이트 클립 |
 
-## 꼭 확인할 것 하나
+## 꼭 확인할 것 두 가지
 
 **아바타 모델의 사용 조건.** 판매 모델은 대부분 "개인 활동"만 허락합니다. 수익 활동이나 소속사 활동(법인 사용)을 하려면 제작자의 허락이 따로 필요한 경우가 많습니다. VRM 모델은 파일에 조건이 들어 있어서 `debutkit doctor --avatar 모델.vrm --agency` 로 바로 확인할 수 있습니다.
+
+**트래킹 프로그램의 수익 방송 조건.** VTube Studio는 무료로 시작할 수 있지만, 후원이나 수익 창출이 있는 방송을 하면 유료 버전(DLC)을 사야 합니다([EULA](https://store.steampowered.com/eula/1325860_eula_0)). 일정 규모 이상의 회사·소속사는 별도 회사 라이선스가 필요합니다. VSeeFace는 상업적 이용을 허용합니다.
 
 전체 목록, 라이선스, 플랫폼 API 정리: [SOFTWARE.md](https://github.com/BudongJW/debutkit/blob/main/docs/SOFTWARE.md)
