@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "첫 방송까지, 한 번에: debutkit을 시작합니다"
-date: 2026-11-21 21:00:00 +0900
+date: 2026-11-21 16:00:00 +0900
 categories: [devlog]
 ---
 
