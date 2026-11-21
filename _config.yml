@@ -1,0 +1,28 @@
+# GitHub Pages 블로그 (Jekyll + minima). GitHub가 그대로 빌드하므로 로컬에 Ruby가 없어도 됨
+# 소속사 이름이 정해지면 title, description만 바꾸면 된다
+title: "버튜버 데뷔 프로젝트 (가칭)"
+description: "버튜버 데뷔 키트(debutkit)와 클립 도구(stream2clip)를 오픈소스로 만들고, 함께할 버튜버를 찾습니다."
+lang: ko
+timezone: Asia/Seoul
+
+# 사용자 사이트(<계정>.github.io)면 baseurl은 "" / 프로젝트 사이트(<계정>.github.io/<저장소>)면 "/<저장소>"
+url: "https://budongjw.github.io"
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:title/
+show_excerpts: true
+
+header_pages:
+  - about.md
+  - software.md
+  - join.md
+
+github_username: BudongJW  # minima 2.5 (GitHub Pages 기본 빌드에 포함된 버전) 형식
+
+exclude:
+  - README.md
